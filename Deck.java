@@ -83,7 +83,7 @@ public class Deck {
                 case QUEEN : totalValue+=10;break;
                 case JACK : totalValue+=10;break;
                 case KING : totalValue+=10;break;
-                case ACE: totalValue+=1;break;
+                case ACE: aces+=1;break;
                 }
             }
 
